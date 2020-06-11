@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Card Checker</title>
 </head>
 <body>
-    <h1>This is Main page</h1>
-    <img src="" alt="">
+    <h2>
+        <!-- Input Card details to validate -->
+        <form>
+            <label for="ccard">Check if a Credit Card Number is Valid:</label><br>
+            <input type="text" id="ccard" name="ccard" placeholder="Enter Card Number"/>
+            <button id="validate" onclick=creditCardCheckerMain>Validate</button>
+            <script src="checker.js"></script>
+        </form>
+    </h2>
+    
 </body>
 </html>

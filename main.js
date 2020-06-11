@@ -115,7 +115,8 @@ const creditCardCheckerMain = input => {
   console.log(`The Companies mailing Invalid cards are: [${companyList}]`);
 }
 
-const testArr = [mystery1,valid1,invalid4,mystery5,"12222222222141313",invalid2,valid4,mystery3,[7,1,1,6,4,3,2,5,6,6,7,5,4],"4485149740629906282"];
+//const testArr = [mystery1,valid1,invalid4,mystery5,"12222222222141313",invalid2,valid4,mystery3,[7,1,1,6,4,3,2,5,6,6,7,5,4],"4485149740629906282"];
 //const testArr = ['4485149740629906282','372492733379555',"4917988979622628","12222222222141313"];
+
 
 creditCardCheckerMain(testArr);
